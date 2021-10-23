@@ -1,11 +1,7 @@
-name: HelloWorld
+name: Discord
 version: 1.0.0
-api-version: 1.16
-author: bk
-main: net.pgfmc.helloworld.Main
-description: Hello World test plugin
-commands:
-  hi:
-    description: Sends a randomized message to the player
-    usage: /<command>
-    aliases: [hey, hola, oi]
+api-version: 1.17
+author: CrimsonDart
+main: net.pgfmc.discord.Main
+description: Discord integration plugin
+depend: [Java_discord_API]
